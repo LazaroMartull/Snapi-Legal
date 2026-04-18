@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snapi — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the Snapi iOS app." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #111;
+      --muted: #444;
+      --bg: #fff;
+      --border: #ddd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f2;
+        --muted: #b5b5b5;
+        --bg: #121212;
+        --border: #333;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+      color: var(--text);
+      background: var(--bg);
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    p, li { margin: 0.65rem 0; }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    ul { padding-left: 1.25rem; }
+    .box {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.9rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="muted"><strong>Snapi</strong> · Last updated: April 18, 2026</p>
+
+  <p>
+    This policy describes how Snapi (“the app”) handles information when you use it.
+    Snapi is a utility for browsing your photo library, marking items for removal, and
+    confirming deletions. The app is designed so your photos and videos are processed on
+    your device using Apple’s system frameworks; the app does not operate Snapi-owned
+    servers that receive your library for processing.
+  </p>
+
+  <div class="box">
+    <strong>Who we are.</strong>
+    Snapi is offered by <strong>[Your legal name or business entity]</strong> (“we”, “us”).
+    <br /><br />
+    <strong>How to reach us:</strong> <a href="mailto:[your-email@example.com]">[your-email@example.com]</a>
+    <br />
+    Replace the bracketed fields with your App Store–listed contact details.
+  </div>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We do not sell your personal information.</li>
+    <li>The app does not include in-app analytics, advertising, or user accounts in the current version.</li>
+    <li>Your media stays in Apple Photos unless you use Share (you choose the destination) or confirm a delete in the app.</li>
+    <li>A small amount of app state is stored locally on your device (for example, your delete queue and browsing position).</li>
+    <li>Apple’s Photos and iCloud Photos may download or sync content according to your device settings; that happens through Apple’s systems, not through servers we operate for Snapi.</li>
+  </ul>
+
+  <h2>Information the app accesses on your device</h2>
+
+  <h3>Photo library (Photos)</h3>
+  <p>
+    Snapi requests access to your photo library so it can display photos and videos,
+    estimate storage impact, let you mark items for deletion, and delete items when you
+    confirm. If you grant <strong>limited access</strong>, only the items you select in
+    Apple’s picker are visible to the app, consistent with iOS behavior.
+  </p>
+  <p>
+    Deleting items uses Apple’s photo library APIs. Depending on your iCloud Photos
+    settings, removed items may be removed from iCloud and your devices in line with how
+    the Photos app normally behaves.
+  </p>
+
+  <h3>iCloud and network use (Apple Photos only)</h3>
+  <p>
+    For some assets—especially iCloud-backed photos or videos—the app may allow Apple’s
+    Photos frameworks to retrieve full-quality data over the network when needed (for
+    example, to preview, measure size more accurately, export for sharing, or complete a
+    delete). That traffic is between your device and Apple’s services, subject to Apple’s
+    privacy practices and your iCloud settings.
+  </p>
+
+  <h2>Information stored by the app locally</h2>
+  <p>
+    Snapi keeps lightweight data on your device using standard iOS storage (for example,
+    <code>UserDefaults</code>) so the app can work across launches. This includes:
+  </p>
+  <ul>
+    <li>Identifiers for items you marked for deletion (pending until you confirm or clear them).</li>
+    <li>Browsing session data such as your current position in the deck and recent swipe actions (to support undo and resume).</li>
+    <li>Your selected browse mode / filter preference for the deck.</li>
+  </ul>
+  <p>
+    This data is not transmitted to us as part of the app’s normal operation. It remains
+    on your device unless you remove the app or clear the app’s data through iOS settings.
+  </p>
+
+  <h2>Sharing</h2>
+  <p>
+    If you use Share, Snapi prepares a temporary copy of the selected item and presents
+    Apple’s share sheet. Anything sent afterward is between you and the app or service
+    you choose (Messages, Mail, AirDrop, Files, third-party apps, etc.). Snapi does not
+    control those destinations.
+  </p>
+
+  <h2>Third-party software</h2>
+  <p>
+    The app may include embedded open-source components used to render animations (for
+    example, Lottie). Those libraries run on your device to display UI; they are not used
+    by Snapi to collect personal data for our own analytics or advertising in the current
+    app version.
+  </p>
+
+  <h2>Analytics, tracking, and advertising</h2>
+  <p>
+    The current Snapi codebase does not implement third-party analytics, crash reporting,
+    or advertising SDKs, and does not send library contents to Snapi-operated backends for
+    processing. If that changes in a future version, we will update this policy and, where
+    required, seek appropriate consent or permissions.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Snapi is not directed at children. The app processes the user’s photo library, which
+    may include sensitive content. Parents and guardians should supervise use on shared
+    devices.
+  </p>
+
+  <h2>Your choices and controls</h2>
+  <ul>
+    <li>You can grant, limit, or revoke Photos access in iOS Settings.</li>
+    <li>You can uninstall the app; local app data is removed with the app subject to iOS behavior.</li>
+    <li>Deletes you confirm are applied to the library through Apple’s APIs; use the Photos app or your backups if you need recovery options outside the app.</li>
+  </ul>
+
+  <h2>Legal rights</h2>
+  <p>
+    Depending on where you live, privacy laws may give you rights to access, correct,
+    delete, or restrict certain processing of personal information, or to lodge a
+    complaint with a supervisory authority. Because Snapi is designed to process your
+    library on-device, much of the information involved never leaves your device as part
+    of Snapi’s own service. For requests related to information we hold as a business
+    (for example, support emails you send us), contact us at the address above.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. The “Last updated” date at the top will
+    change when we do. Continued use of the app after an update means you accept the
+    revised policy, unless applicable law requires a different approach.
+  </p>
+
+  <hr />
+  <p class="muted">
+    This policy describes the Snapi app’s privacy practices based on its implementation
+    as of the date shown. It is not legal advice. Have counsel review it if you need
+    jurisdiction-specific terms (for example GDPR, UK GDPR, CCPA/CPRA disclosures, or a
+    data processing agreement).
+  </p>
+
+</body>
+</html>
