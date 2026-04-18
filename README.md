@@ -1,2 +1,2 @@
 # Snapi-Legal
-Privacy Policy and Support Pages for Snapi
+Privacy Policy and Support Pages for Snapi.
